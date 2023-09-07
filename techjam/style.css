@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: #EEE;
+}
+main{
+    width: 100%;
+    height: 50rem;
+    background: blue;
+    
+}
+
+header{
+    width: 100%;
+    height: 14.1rem;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgba(0, 0, 0, 0.12);
+    display: flex;
+    gap: 1rem;
+   
+  
+    
+}
+
+header > img{
+    width: 20rem;
+    height: 9rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+header > .dropdown{
+    margin-top: 4rem;
+}
+
+.weer{
+    width: 3rem;
+    height: 4rem;
+    margin-top: 4.5rem;
+    margin-left: 50rem;
+}
+.glas{
+    width: 3rem;
+    height: 4rem;
+    margin-top: 4.5rem;
+    margin-left: 3rem;
+}
+
+.dropbtn {
+
+    color: gray;
+    padding: 16px;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+  
+  }
+
+  .section{
+    width: 100%;
+    height: 50rem;
+   
+}
+
+.african-lore{
+     width: 50rem;
+     height: 40rem;
+     margin-top: 5rem;
+     margin-left: 20rem;
+     position: relative;
+     text-align: center;
+     color: white;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+
+  }
+
+  .steve{
+    width: 50rem;
+    height: 40rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    position: relative;
+    text-align: center;
+    color: white;
+ 
+  }
+
+  .section2{
+    width: 70%;
+    height: 100rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap; 
+    padding-top: 3rem; 
+    padding-left: 7rem;
+    
+  }
+
+  .news{
+    width: 30rem;
+    height: 40rem;
+
+    
+  }
+
+  .image-News{
+    width: 30rem;
+    height: 20rem;
+  }
+
+  h1{
+   
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  h4{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: gray;
+  }
+
+  .news:hover{
+    color: red;
+  }
+
+
+  h2{
+    color: red;
+  }
+
+  .section21{
+    width: 30rem;
+    height: 100rem;
+    background: beige;
+    display: flex;
+    float: right;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .live-tekst{
+    width: 30rem;
+    height: 10rem;
+    border-bottom: 0.1rem solid gray;
+  
+    
+  }
